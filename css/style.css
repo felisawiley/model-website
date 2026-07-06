@@ -228,7 +228,7 @@ button {
 
 .about-inner--text {
   grid-template-columns: 1fr;
-  max-width: 680px;
+  max-width: 900px;
   text-align: center;
 }
 
@@ -758,23 +758,14 @@ body.site-locked > footer {
 }
 
 .contact-email {
-  display: inline-block;
-  font-family: var(--font-display);
-  font-size: 1.35rem;
-  border-bottom: 1px solid var(--charcoal);
-  padding-bottom: 0.15rem;
-  margin: 0.5rem 0;
+  color: inherit;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 0.05rem;
   transition: color var(--transition);
 }
 
 .contact-email:hover {
   color: var(--accent);
-}
-
-.contact-note {
-  font-size: 0.8rem;
-  font-style: italic;
-  margin-top: 0.75rem;
 }
 
 /* Footer */

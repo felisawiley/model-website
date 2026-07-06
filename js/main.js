@@ -1,5 +1,17 @@
 document.getElementById("year").textContent = new Date().getFullYear();
 
+(function initContactEmail() {
+  const link = document.getElementById("contact-email");
+  if (!link) return;
+
+  const user = String.fromCharCode(102, 101, 108, 105, 115, 97, 119, 105, 108, 101, 121);
+  const domain = String.fromCharCode(103, 109, 97, 105, 108, 46, 99, 111, 109);
+  const address = `${user}@${domain}`;
+
+  link.href = `mailto:${address}`;
+  link.setAttribute("aria-label", `Email ${address}`);
+})();
+
 const navToggle = document.querySelector(".nav-toggle");
 const navLinks = document.querySelector(".nav-links");
 
