@@ -739,6 +739,22 @@ body.site-locked > footer {
   border: 0;
 }
 
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 1rem;
+  z-index: 2000;
+  padding: 0.5rem 0.75rem;
+  background: var(--charcoal);
+  color: var(--cream);
+  font-size: 0.875rem;
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  top: 1rem;
+}
+
 /* Contact */
 
 .contact {
