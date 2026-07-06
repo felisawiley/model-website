@@ -5,5 +5,5 @@ const SITE_CONFIG = {
   protectEntireSite: false,
   // UPDATE before publish: live site URL with no trailing slash.
   // Also update robots.txt, sitemap.xml, and canonical/og:url meta tags to match.
-  siteUrl: "https://felisawiley.com",
+  siteUrl: "https://itsmefee.com",
 };
