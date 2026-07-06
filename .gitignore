@@ -1,0 +1,6 @@
+# Keep only web-optimized images in the repo
+images/*.jpg
+!images/web/
+
+# Local tooling
+.venv/
