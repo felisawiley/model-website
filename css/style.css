@@ -563,6 +563,29 @@ button {
   text-align: center;
 }
 
+.comp-card-btn {
+  display: inline-block;
+  padding: 0.55rem 1.35rem;
+  font-size: 0.62rem;
+  font-weight: 400;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  border: 1px solid var(--charcoal);
+  background: transparent;
+  color: var(--charcoal);
+  transition: background var(--transition), color var(--transition);
+}
+
+.comp-card-btn:hover {
+  background: var(--charcoal);
+  color: var(--cream);
+}
+
+.comp-card-btn:focus-visible {
+  outline: 2px solid var(--charcoal);
+  outline-offset: 3px;
+}
+
 .gallery-scroll {
   max-width: 1200px;
   margin: 0 auto;
